@@ -8,7 +8,7 @@ download the binary
 
 extract it to home
 
-remove the middle folder with hte long name, it is redunant... just have e.g. julia-1.8.0 in your home folder
+remove the middle folder with the long name, it is redundant... just have e.g. julia-1.8.0 in your home folder
 
 use a text editor to change your ~/.bashrc $PATH variable 
 
@@ -26,7 +26,7 @@ $ Pkg.build("IJulia")
 
 then it should turn up in your list of kernels in the notebook
 
-also remember to add all yoru dependiceis again
+also remember to add all your dependencies again
 
 in the REPL
 
