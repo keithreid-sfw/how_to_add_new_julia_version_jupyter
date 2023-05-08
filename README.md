@@ -14,14 +14,16 @@ use a text editor to change your ~/.bashrc $PATH variable
 
 then open a bash terminal
 
-$ jupyter kernelspec  list
+$ jupyter kernelspec list
 
 $ jupyter kernelspec remove julia-1.7
+
 $ exit
 
 then back to julia REPL
 
 $ using Pkg; Pkg.add("IJulia")
+
 $ Pkg.build("IJulia")
 
 then it should turn up in your list of kernels in the notebook
